@@ -2,6 +2,7 @@
 Quickly getting started with React-Redux in Django 1.10
 
 ## Using guide
+```markdown
 git clone https://github.com/kabinpokhrel/djreact.git
 cd djreact
 virtualenv djenv
