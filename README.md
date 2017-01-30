@@ -1,3 +1,14 @@
-## React+Redux with Django Boilerplate
+## ReactJS with Django Boilerplate
+Quickly getting started with React-Redux in Django 1.10
 
-You can use the [editor on GitHub](https://github.com/kabinpokhrel/djreact/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Using guide
+git clone https://github.com/kabinpokhrel/djreact.git
+cd djreact
+virtualenv djenv
+pip install -r requirements.txt
+npm install
+./manage.py migrate
+./manage.py runserver
+
+# in another terminal:
+node server.js
